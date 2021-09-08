@@ -18,15 +18,6 @@
           "revision": "dd0636e151724b8ba2e0908eba4d99a6ff24d00c",
           "version": "1.0.0"
         }
-      },
-      {
-        "package": "SoundpipeAudioKit",
-        "repositoryURL": "https://github.com/AudioKit/SoundpipeAudioKit",
-        "state": {
-          "branch": null,
-          "revision": "dd8106ff8a768613623eb6cf40b5e1cc00b12eeb",
-          "version": "5.2.1"
-        }
       }
     ]
   },
