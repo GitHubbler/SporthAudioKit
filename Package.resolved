@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "AudioKit",
-        "repositoryURL": "https://github.com/AudioKit/AudioKit",
-        "state": {
-          "branch": null,
-          "revision": "5eefc06cc8c503624c92edcb4acbf28574f08acf",
-          "version": "5.2.1"
-        }
-      },
-      {
         "package": "KissFFT",
         "repositoryURL": "https://github.com/AudioKit/KissFFT",
         "state": {

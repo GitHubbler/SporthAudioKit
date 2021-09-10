@@ -9,8 +9,11 @@ let package = Package(
     products: [.library(name: "SporthAudioKit", targets: ["SporthAudioKit"])],
     dependencies: [
 //        .package(url: "https://github.com/AudioKit/SoundpipeAudioKit", from: "5.2.0"),
+//        .package(name: "SoundpipeAudioKit",
+//                 path: "/Users/pierre/v/SkyDrive/Git_MacFast/dev_iPhone/3rdPartyForked/SoundpipeAudioKit"),
         .package(name: "SoundpipeAudioKit",
-                 path: "/Users/pierre/v/SkyDrive/Git_MacFast/dev_iPhone/3rdPartyForked/SoundpipeAudioKit"),
+                 url: "https://github.com/GitHubbler/SoundpipeAudioKit.git",
+                 branch: "ts1"),
     ],
     targets: [
         .target(name: "Sporth", dependencies: ["SoundpipeAudioKit"]),
